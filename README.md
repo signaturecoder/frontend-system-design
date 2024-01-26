@@ -30,10 +30,50 @@ Talking about different tiers of Architecture like Tier 1, Tier 2, Tier 3, and T
 
 Basic Terms in Architecture - Client, Server, Database 
 
-Tier 1: If a Samosa wala does all the activities in one place.
-Tier 2: If a Samosa wala breaks his activities like serving the samosa and eating of samosa at a different place.
-Tier 3: If the same Samosa wala extends his activities in three separate parts like the user comes and asks for an order and pays the bill first and then gets the order and seat on
+- Tier 1: If a Samosa wala does all the activities in one place.
+- Tier 2: If a Samosa wala breaks his activities like serving the samosa and eating of samosa at a different place.
+- Tier 3: If the same Samosa wala extends his activities in three separate parts like the user comes and asks for an order and pays the bill first and then gets the order and seat on
 the table to eat his favorite samosas and chutney.
+
+
+### Episode 3
+
+Talking about Architecture Patterns, Communication Protocols
+
+A few Architecture Patterns are - 
+- Iframe
+- Web Components
+- Module Federation
+- MicroApps / Route Based
+
+Some Communication Protocols - 
+- Long Polling: When you request for data and keep asking for the data
+    e.g: Data Analytics
+- Web Sockets: A connection made between two partners ( once you request some data, then they will be sent data once it is ready)
+    e.g: Chat Applications
+- SSE (Server Sent Event ): Once the Connection is made, they will send you all the data
+    e.g: Notifications, Like
+
+  Availability (Offline Support)
+- Using Service Workers ( provide something when your internet goes down)
+
+  Accessibility
+- Keyboard Accessibility
+- Screen Reader
+- Color Contrast
+
+  Consistency
+- CSS Properties
+- Polyfills
+- Design System: To tackle consistency for different browsers, their versions, operating systems, etc. We have some design systems like Material UI, Ant D, Fluent UI (Microsoft), and so on.
+
+  Credibility & Trust (SEO)
+  Take care of the head(the most important part of the page).
+  On-page
+- title, description, meta, content, performance
+ Off-page
+- backlinks
+   
 
 
 
